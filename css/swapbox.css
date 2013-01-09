@@ -1,0 +1,17 @@
+// SwapBox CSS
+.swapbox {
+  position: relative;
+}
+  
+  .swapbox .swapbox-btn {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .swapbox .swapbox-element {
+    display: none;
+    position: relative;
+    background: $white;
+    z-index: 1000;
+    cursor: default;
+  }
